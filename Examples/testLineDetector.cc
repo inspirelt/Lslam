@@ -10,12 +10,13 @@ int main(int argc,char** argv){
 
     VideoCapture capture("../data/test.avi");
     Mat color = Mat();
-    Frame frame = Frame();
+    Frame frame;
     if(!capture.isOpened())
         cout<<"fail to open~"<<endl;
     long totalFrameNumber = capture.get(CV_CAP_PROP_FRAME_COUNT);
     cout<<"total "<<totalFrameNumber<<" frames "<<endl;
     bool stop = false;
+    int id = 0;
     // vector<Line> temp;
     while(!stop){
         if(!capture.read(color)){
@@ -23,7 +24,13 @@ int main(int argc,char** argv){
             return -1;
         }
         cvtColor(color,color,COLOR_BGR2GRAY);
-        frame.ExtractLines(color);
+        frame = Frame(id++,color);
+        frame.ExtractLines();
+        vector<Line> lines = frame.getCurrentFrameLines();
+        for(vector<Line>::iterator vit = lines.begin(),vend = lines.end();vit!=vend;vit++){
+            cout<<"| frame : "<<(*vit).mparentFrameId<<" | pointId : "<<(*vit).mpointId<<" | point : "<<(*vit).mendPoint<<endl;
+        }
+
     }
 
     // Mat img = imread("../data/eigenfaces.png",IMREAD_GRAYSCALE);

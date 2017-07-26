@@ -14,12 +14,12 @@ using namespace cv;
 namespace Lslam{
 class Line{
 public:
-    unsigned int id;
-    unsigned long frameId;
-    Vec4f endPoint;
+    unsigned int mlineId;
+    unsigned long mparentFrameId;
+    Vec4f mendPoint;
 public:
     Line();
-    Line(unsigned int id_, unsigned long frameId_, Vec4f endPoint_);
+    Line(unsigned int lineId, unsigned long parentFrameId, Vec4f endPoint);
     ~Line();
 };
 }//namespace Lslam

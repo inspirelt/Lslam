@@ -6,20 +6,23 @@ Frame::Frame(long frameId, Mat color){
     mframeId = frameId;
     mcolor = color.clone();
 }
-void Frame::ExtractLines(const Mat &color){
-    static unsigned int id = 0;
-    unsigned long frameId= 1;
+void Frame::ExtractLines(){
+    N = 0;
     Ptr<LineSegmentDetector> ls = createLineSegmentDetector(LSD_REFINE_ADV);
     vector<Vec4f> lines_std;
-    ls->detect(color, lines_std);
+    ls->detect(mcolor, lines_std);
     for(vector<Vec4f>::iterator vit=lines_std.begin(),vend=lines_std.end();vit!=vend;vit++){
-            Line pLine = Line(id++, frameId, *vit);
+            Line pLine = Line(N++, mframeId, *vit);
             mvLines.push_back(pLine);
     }
-    Mat drawnLines(color);
+    Mat drawnLines(mcolor);
     ls->drawSegments(drawnLines,lines_std);
     imshow("draw segments",drawnLines);
     waitKey(10);
+}
+
+vector<Line> Frame::getCurrentFrameLines(){
+    return mvLines;
 }
 // void Frame::getAllLines(Mat color){
 //     Ptr<LineSegmentDetector> ls = createLineSegmentDetector(LSD_REFINE_ADV);

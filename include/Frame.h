@@ -16,17 +16,21 @@ namespace Lslam{
 
 class Line;
 class Frame{
-public:
+private:
     // typedef shared_ptr<Frame> Ptr;
+    //记录当前帧中所有线段
     vector<Line> mvLines;
+    
     unsigned long mframeId;
+    //当前帧的图像
     Mat mcolor;
     //线段的数量
     unsigned int N;
 public:
     Frame(){};
     Frame(long frameId,Mat color = Mat());
-    void ExtractLines(const Mat &color);
+    void ExtractLines();
+    vector<Line> getCurrentFrameLines();
     ~Frame(){};
 }; 
 
