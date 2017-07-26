@@ -16,13 +16,14 @@ int main(int argc,char** argv){
     long totalFrameNumber = capture.get(CV_CAP_PROP_FRAME_COUNT);
     cout<<"total "<<totalFrameNumber<<" frames "<<endl;
     bool stop = false;
+    // vector<Line> temp;
     while(!stop){
         if(!capture.read(color)){
             cout<<"read failed~"<<endl;
             return -1;
         }
         cvtColor(color,color,COLOR_BGR2GRAY);
-        frame.getAllLines(color);
+        frame.ExtractLines(color);
     }
 
     // Mat img = imread("../data/eigenfaces.png",IMREAD_GRAYSCALE);

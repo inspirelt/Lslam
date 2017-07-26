@@ -8,24 +8,28 @@
 #include "opencv2/imgproc.hpp"
 #include "opencv2/imgcodecs.hpp"
 #include "opencv2/highgui.hpp"
-#include"Line.h"
+#include "Line.h"
 
 using namespace cv;
 using namespace std;
 namespace Lslam{
+
 class Line;
 class Frame{
-private:
+public:
     // typedef shared_ptr<Frame> Ptr;
-    vector<Line*> mvpLines_;
-    unsigned long id_;
-    Mat color_;
+    vector<Line> mvLines;
+    unsigned long mframeId;
+    Mat mcolor;
+    //线段的数量
+    unsigned int N;
 public:
     Frame(){};
-    Frame(long id,Mat color = Mat()){id_=id;}
-    void ExtractLines(const Mat &color , vector<Line*> );
+    Frame(long frameId,Mat color = Mat());
+    void ExtractLines(const Mat &color);
     ~Frame(){};
 }; 
+
 }
 
 
