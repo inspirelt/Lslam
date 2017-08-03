@@ -2,7 +2,7 @@ cmake_minimum_required( VERSION 2.8 )
 
 project( Lslam )
 
-set(OpenCV_DIR "/usr/local/opencv3.2.0/share/OpenCV")
+#set(OpenCV_DIR "/usr/local/opencv3.2.0/share/OpenCV")
 
 find_package( OpenCV REQUIRED )
 
