@@ -3,6 +3,7 @@
         "string": "cpp",
         "array": "cpp",
         "initializer_list": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "iostream": "cpp"
     }
 }

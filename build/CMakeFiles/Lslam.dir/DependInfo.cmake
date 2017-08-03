@@ -6,6 +6,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
 SET(CMAKE_DEPENDS_CHECK_CXX
   "/home/lutao/slam/Lslam/src/Frame.cc" "/home/lutao/slam/Lslam/build/CMakeFiles/Lslam.dir/src/Frame.cc.o"
   "/home/lutao/slam/Lslam/src/Line.cc" "/home/lutao/slam/Lslam/build/CMakeFiles/Lslam.dir/src/Line.cc.o"
+  "/home/lutao/slam/Lslam/src/System.cc" "/home/lutao/slam/Lslam/build/CMakeFiles/Lslam.dir/src/System.cc.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +18,8 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 SET(CMAKE_C_TARGET_INCLUDE_PATH
   ".."
   "../include"
-  "/usr/local/opencv/3.2.0/include"
-  "/usr/local/opencv/3.2.0/include/opencv"
+  "/usr/local/include"
+  "/usr/local/include/opencv"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

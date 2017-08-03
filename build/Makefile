@@ -196,6 +196,30 @@ src/Line.cc.s:
 	$(MAKE) -f CMakeFiles/Lslam.dir/build.make CMakeFiles/Lslam.dir/src/Line.cc.s
 .PHONY : src/Line.cc.s
 
+src/System.o: src/System.cc.o
+.PHONY : src/System.o
+
+# target to build an object file
+src/System.cc.o:
+	$(MAKE) -f CMakeFiles/Lslam.dir/build.make CMakeFiles/Lslam.dir/src/System.cc.o
+.PHONY : src/System.cc.o
+
+src/System.i: src/System.cc.i
+.PHONY : src/System.i
+
+# target to preprocess a source file
+src/System.cc.i:
+	$(MAKE) -f CMakeFiles/Lslam.dir/build.make CMakeFiles/Lslam.dir/src/System.cc.i
+.PHONY : src/System.cc.i
+
+src/System.s: src/System.cc.s
+.PHONY : src/System.s
+
+# target to generate assembly for a file
+src/System.cc.s:
+	$(MAKE) -f CMakeFiles/Lslam.dir/build.make CMakeFiles/Lslam.dir/src/System.cc.s
+.PHONY : src/System.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -215,6 +239,9 @@ help:
 	@echo "... src/Line.o"
 	@echo "... src/Line.i"
 	@echo "... src/Line.s"
+	@echo "... src/System.o"
+	@echo "... src/System.i"
+	@echo "... src/System.s"
 .PHONY : help
 
 

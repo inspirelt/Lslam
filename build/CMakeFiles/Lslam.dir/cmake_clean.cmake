@@ -1,6 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/Lslam.dir/src/Frame.cc.o"
   "CMakeFiles/Lslam.dir/src/Line.cc.o"
+  "CMakeFiles/Lslam.dir/src/System.cc.o"
   "../lib/libLslam.pdb"
   "../lib/libLslam.so"
 )

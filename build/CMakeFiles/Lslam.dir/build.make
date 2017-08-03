@@ -95,46 +95,70 @@ CMakeFiles/Lslam.dir/src/Line.cc.o.provides: CMakeFiles/Lslam.dir/src/Line.cc.o.
 
 CMakeFiles/Lslam.dir/src/Line.cc.o.provides.build: CMakeFiles/Lslam.dir/src/Line.cc.o
 
+CMakeFiles/Lslam.dir/src/System.cc.o: CMakeFiles/Lslam.dir/flags.make
+CMakeFiles/Lslam.dir/src/System.cc.o: ../src/System.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lutao/slam/Lslam/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Lslam.dir/src/System.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Lslam.dir/src/System.cc.o -c /home/lutao/slam/Lslam/src/System.cc
+
+CMakeFiles/Lslam.dir/src/System.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lslam.dir/src/System.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lutao/slam/Lslam/src/System.cc > CMakeFiles/Lslam.dir/src/System.cc.i
+
+CMakeFiles/Lslam.dir/src/System.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lslam.dir/src/System.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lutao/slam/Lslam/src/System.cc -o CMakeFiles/Lslam.dir/src/System.cc.s
+
+CMakeFiles/Lslam.dir/src/System.cc.o.requires:
+.PHONY : CMakeFiles/Lslam.dir/src/System.cc.o.requires
+
+CMakeFiles/Lslam.dir/src/System.cc.o.provides: CMakeFiles/Lslam.dir/src/System.cc.o.requires
+	$(MAKE) -f CMakeFiles/Lslam.dir/build.make CMakeFiles/Lslam.dir/src/System.cc.o.provides.build
+.PHONY : CMakeFiles/Lslam.dir/src/System.cc.o.provides
+
+CMakeFiles/Lslam.dir/src/System.cc.o.provides.build: CMakeFiles/Lslam.dir/src/System.cc.o
+
 # Object files for target Lslam
 Lslam_OBJECTS = \
 "CMakeFiles/Lslam.dir/src/Frame.cc.o" \
-"CMakeFiles/Lslam.dir/src/Line.cc.o"
+"CMakeFiles/Lslam.dir/src/Line.cc.o" \
+"CMakeFiles/Lslam.dir/src/System.cc.o"
 
 # External object files for target Lslam
 Lslam_EXTERNAL_OBJECTS =
 
 ../lib/libLslam.so: CMakeFiles/Lslam.dir/src/Frame.cc.o
 ../lib/libLslam.so: CMakeFiles/Lslam.dir/src/Line.cc.o
+../lib/libLslam.so: CMakeFiles/Lslam.dir/src/System.cc.o
 ../lib/libLslam.so: CMakeFiles/Lslam.dir/build.make
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_calib3d.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_core.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_features2d.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_flann.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_highgui.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_imgcodecs.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_imgproc.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_ml.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_objdetect.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_photo.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_shape.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_stitching.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_superres.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_video.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_videoio.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_videostab.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_viz.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_objdetect.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_calib3d.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_features2d.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_flann.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_highgui.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_ml.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_photo.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_video.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_videoio.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_imgcodecs.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_imgproc.so.3.2.0
-../lib/libLslam.so: /usr/local/opencv/3.2.0/lib/libopencv_core.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_calib3d.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_core.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_features2d.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_flann.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_highgui.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_imgcodecs.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_imgproc.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_ml.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_objdetect.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_photo.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_shape.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_stitching.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_superres.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_video.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_videoio.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_videostab.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_objdetect.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_calib3d.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_features2d.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_flann.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_highgui.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_ml.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_photo.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_video.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_videoio.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_imgcodecs.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_imgproc.so.3.2.0
+../lib/libLslam.so: /usr/local/lib/libopencv_core.so.3.2.0
 ../lib/libLslam.so: CMakeFiles/Lslam.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../lib/libLslam.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lslam.dir/link.txt --verbose=$(VERBOSE)
@@ -145,6 +169,7 @@ CMakeFiles/Lslam.dir/build: ../lib/libLslam.so
 
 CMakeFiles/Lslam.dir/requires: CMakeFiles/Lslam.dir/src/Frame.cc.o.requires
 CMakeFiles/Lslam.dir/requires: CMakeFiles/Lslam.dir/src/Line.cc.o.requires
+CMakeFiles/Lslam.dir/requires: CMakeFiles/Lslam.dir/src/System.cc.o.requires
 .PHONY : CMakeFiles/Lslam.dir/requires
 
 CMakeFiles/Lslam.dir/clean:

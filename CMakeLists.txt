@@ -2,7 +2,7 @@ cmake_minimum_required( VERSION 2.8 )
 
 project( Lslam )
 
-set(OpenCV_DIR "/usr/local/opencv/3.2.0/share/OpenCV")
+set(OpenCV_DIR "/usr/local/opencv3.2.0/share/OpenCV")
 
 find_package( OpenCV REQUIRED )
 
@@ -16,6 +16,7 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/lib)
 add_library(${PROJECT_NAME} SHARED
 src/Frame.cc
 src/Line.cc
+src/System.cc
 )
 target_link_libraries(${PROJECT_NAME}
     ${OpenCV_LIBS}

@@ -17,8 +17,8 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 SET(CMAKE_C_TARGET_INCLUDE_PATH
   ".."
   "../include"
-  "/usr/local/opencv/3.2.0/include"
-  "/usr/local/opencv/3.2.0/include/opencv"
+  "/usr/local/include"
+  "/usr/local/include/opencv"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
