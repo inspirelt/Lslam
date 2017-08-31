@@ -9,7 +9,7 @@ using namespace cv;
 
 int main(int argc,char** argv){
 
-    VideoCapture capture("../data/1012.webm");
+    VideoCapture capture("../data/1012.ogg");
     Mat color = Mat();
     Frame frame;
     if(!capture.isOpened())
