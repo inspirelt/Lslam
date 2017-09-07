@@ -5,7 +5,7 @@ CMakeFiles/testLineDetector.dir/Examples/testLineDetector.cc.o
  ../include/Frame.h
  ../include/Line.h
  ../include/System.h
- /home/lutao/slam/Lslam/Examples/testLineDetector.cc
+ /home/ubuntu/slam/Lslam/Examples/testLineDetector.cc
  /usr/local/include/opencv/cxcore.h
  /usr/local/include/opencv2/calib3d.hpp
  /usr/local/include/opencv2/calib3d/calib3d_c.h

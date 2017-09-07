@@ -36,15 +36,15 @@ Line.h
 Frame.h
 ../include/Frame.h
 
-/home/lutao/slam/Lslam/Examples/testLineDetector.cc
+/home/ubuntu/slam/Lslam/Examples/testLineDetector.cc
 iostream
 -
 opencv2/core/core.hpp
 -
 Frame.h
-/home/lutao/slam/Lslam/Examples/Frame.h
+/home/ubuntu/slam/Lslam/Examples/Frame.h
 System.h
-/home/lutao/slam/Lslam/Examples/System.h
+/home/ubuntu/slam/Lslam/Examples/System.h
 
 /usr/local/include/opencv/cxcore.h
 opencv2/core/core_c.h

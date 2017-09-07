@@ -36,17 +36,17 @@ Line.h
 Frame.h
 ../include/Frame.h
 
-/home/lutao/slam/Lslam/src/Frame.cc
+/home/ubuntu/slam/Lslam/src/Frame.cc
 Frame.h
-/home/lutao/slam/Lslam/src/Frame.h
+/home/ubuntu/slam/Lslam/src/Frame.h
 
-/home/lutao/slam/Lslam/src/Line.cc
+/home/ubuntu/slam/Lslam/src/Line.cc
 Line.h
-/home/lutao/slam/Lslam/src/Line.h
+/home/ubuntu/slam/Lslam/src/Line.h
 
-/home/lutao/slam/Lslam/src/System.cc
+/home/ubuntu/slam/Lslam/src/System.cc
 System.h
-/home/lutao/slam/Lslam/src/System.h
+/home/ubuntu/slam/Lslam/src/System.h
 
 /usr/local/include/opencv/cxcore.h
 opencv2/core/core_c.h

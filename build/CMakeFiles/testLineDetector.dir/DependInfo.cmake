@@ -4,13 +4,13 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lutao/slam/Lslam/Examples/testLineDetector.cc" "/home/lutao/slam/Lslam/build/CMakeFiles/testLineDetector.dir/Examples/testLineDetector.cc.o"
+  "/home/ubuntu/slam/Lslam/Examples/testLineDetector.cc" "/home/ubuntu/slam/Lslam/build/CMakeFiles/testLineDetector.dir/Examples/testLineDetector.cc.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/lutao/slam/Lslam/build/CMakeFiles/Lslam.dir/DependInfo.cmake"
+  "/home/ubuntu/slam/Lslam/build/CMakeFiles/Lslam.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

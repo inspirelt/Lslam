@@ -4,7 +4,7 @@
 CMakeFiles/Lslam.dir/src/Frame.cc.o
  ../include/Frame.h
  ../include/Line.h
- /home/lutao/slam/Lslam/src/Frame.cc
+ /home/ubuntu/slam/Lslam/src/Frame.cc
  /usr/local/include/opencv/cxcore.h
  /usr/local/include/opencv2/calib3d.hpp
  /usr/local/include/opencv2/calib3d/calib3d_c.h
@@ -126,7 +126,7 @@ CMakeFiles/Lslam.dir/src/Frame.cc.o
  /usr/local/include/opencv2/videostab/wobble_suppression.hpp
 CMakeFiles/Lslam.dir/src/Line.cc.o
  ../include/Line.h
- /home/lutao/slam/Lslam/src/Line.cc
+ /home/ubuntu/slam/Lslam/src/Line.cc
  /usr/local/include/opencv/cxcore.h
  /usr/local/include/opencv2/calib3d.hpp
  /usr/local/include/opencv2/calib3d/calib3d_c.h
@@ -250,7 +250,7 @@ CMakeFiles/Lslam.dir/src/System.cc.o
  ../include/Frame.h
  ../include/Line.h
  ../include/System.h
- /home/lutao/slam/Lslam/src/System.cc
+ /home/ubuntu/slam/Lslam/src/System.cc
  /usr/local/include/opencv/cxcore.h
  /usr/local/include/opencv2/calib3d.hpp
  /usr/local/include/opencv2/calib3d/calib3d_c.h

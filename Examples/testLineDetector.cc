@@ -9,7 +9,11 @@ using namespace cv;
 
 int main(int argc,char** argv){
 
-    VideoCapture capture("../data/1012.ogg");
+    if(argc != 3){
+	cout<<"Error parameters! Usage:testLineDetector videoName settingFile."<<endl;
+	return 0;
+    }
+    VideoCapture capture(argv[1]);
     Mat color = Mat();
     Frame frame;
     if(!capture.isOpened())
@@ -20,7 +24,7 @@ int main(int argc,char** argv){
     int id = 0;
     // vector<Line> temp;
 
-    System y = System("/home/lutao/slam/ORB_SLAM2/Examples/Monocular/mono_mcg.yaml");
+    System y = System(argv[2]);
 
     while(!stop){
         if(!capture.read(color)){

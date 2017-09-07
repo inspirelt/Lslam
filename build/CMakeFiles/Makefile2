@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lutao/slam/Lslam
+CMAKE_SOURCE_DIR = /home/ubuntu/slam/Lslam
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lutao/slam/Lslam/build
+CMAKE_BINARY_DIR = /home/ubuntu/slam/Lslam/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/Lslam.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/lutao/slam/Lslam/build
 CMakeFiles/Lslam.dir/all:
 	$(MAKE) -f CMakeFiles/Lslam.dir/build.make CMakeFiles/Lslam.dir/depend
 	$(MAKE) -f CMakeFiles/Lslam.dir/build.make CMakeFiles/Lslam.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lutao/slam/Lslam/build/CMakeFiles  1 2 3
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/slam/Lslam/build/CMakeFiles  1 2 3
 	@echo "Built target Lslam"
 .PHONY : CMakeFiles/Lslam.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/Lslam.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Lslam.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lutao/slam/Lslam/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/slam/Lslam/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Lslam.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lutao/slam/Lslam/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/slam/Lslam/build/CMakeFiles 0
 .PHONY : CMakeFiles/Lslam.dir/rule
 
 # Convenience name for target.
@@ -94,7 +94,7 @@ clean: CMakeFiles/Lslam.dir/clean
 CMakeFiles/testLineDetector.dir/all: CMakeFiles/Lslam.dir/all
 	$(MAKE) -f CMakeFiles/testLineDetector.dir/build.make CMakeFiles/testLineDetector.dir/depend
 	$(MAKE) -f CMakeFiles/testLineDetector.dir/build.make CMakeFiles/testLineDetector.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lutao/slam/Lslam/build/CMakeFiles  4
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/slam/Lslam/build/CMakeFiles  4
 	@echo "Built target testLineDetector"
 .PHONY : CMakeFiles/testLineDetector.dir/all
 
@@ -104,9 +104,9 @@ all: CMakeFiles/testLineDetector.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/testLineDetector.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lutao/slam/Lslam/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/slam/Lslam/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testLineDetector.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lutao/slam/Lslam/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/slam/Lslam/build/CMakeFiles 0
 .PHONY : CMakeFiles/testLineDetector.dir/rule
 
 # Convenience name for target.

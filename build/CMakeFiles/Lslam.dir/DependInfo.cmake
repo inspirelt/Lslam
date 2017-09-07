@@ -4,9 +4,9 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lutao/slam/Lslam/src/Frame.cc" "/home/lutao/slam/Lslam/build/CMakeFiles/Lslam.dir/src/Frame.cc.o"
-  "/home/lutao/slam/Lslam/src/Line.cc" "/home/lutao/slam/Lslam/build/CMakeFiles/Lslam.dir/src/Line.cc.o"
-  "/home/lutao/slam/Lslam/src/System.cc" "/home/lutao/slam/Lslam/build/CMakeFiles/Lslam.dir/src/System.cc.o"
+  "/home/ubuntu/slam/Lslam/src/Frame.cc" "/home/ubuntu/slam/Lslam/build/CMakeFiles/Lslam.dir/src/Frame.cc.o"
+  "/home/ubuntu/slam/Lslam/src/Line.cc" "/home/ubuntu/slam/Lslam/build/CMakeFiles/Lslam.dir/src/Line.cc.o"
+  "/home/ubuntu/slam/Lslam/src/System.cc" "/home/ubuntu/slam/Lslam/build/CMakeFiles/Lslam.dir/src/System.cc.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

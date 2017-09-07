@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lutao/slam/Lslam
+CMAKE_SOURCE_DIR = /home/ubuntu/slam/Lslam
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lutao/slam/Lslam/build
+CMAKE_BINARY_DIR = /home/ubuntu/slam/Lslam/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Lslam.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/Lslam.dir/flags.make
 
 CMakeFiles/Lslam.dir/src/Frame.cc.o: CMakeFiles/Lslam.dir/flags.make
 CMakeFiles/Lslam.dir/src/Frame.cc.o: ../src/Frame.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lutao/slam/Lslam/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/slam/Lslam/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Lslam.dir/src/Frame.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Lslam.dir/src/Frame.cc.o -c /home/lutao/slam/Lslam/src/Frame.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Lslam.dir/src/Frame.cc.o -c /home/ubuntu/slam/Lslam/src/Frame.cc
 
 CMakeFiles/Lslam.dir/src/Frame.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lslam.dir/src/Frame.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lutao/slam/Lslam/src/Frame.cc > CMakeFiles/Lslam.dir/src/Frame.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/slam/Lslam/src/Frame.cc > CMakeFiles/Lslam.dir/src/Frame.cc.i
 
 CMakeFiles/Lslam.dir/src/Frame.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lslam.dir/src/Frame.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lutao/slam/Lslam/src/Frame.cc -o CMakeFiles/Lslam.dir/src/Frame.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/slam/Lslam/src/Frame.cc -o CMakeFiles/Lslam.dir/src/Frame.cc.s
 
 CMakeFiles/Lslam.dir/src/Frame.cc.o.requires:
 .PHONY : CMakeFiles/Lslam.dir/src/Frame.cc.o.requires
@@ -74,17 +74,17 @@ CMakeFiles/Lslam.dir/src/Frame.cc.o.provides.build: CMakeFiles/Lslam.dir/src/Fra
 
 CMakeFiles/Lslam.dir/src/Line.cc.o: CMakeFiles/Lslam.dir/flags.make
 CMakeFiles/Lslam.dir/src/Line.cc.o: ../src/Line.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lutao/slam/Lslam/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/slam/Lslam/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Lslam.dir/src/Line.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Lslam.dir/src/Line.cc.o -c /home/lutao/slam/Lslam/src/Line.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Lslam.dir/src/Line.cc.o -c /home/ubuntu/slam/Lslam/src/Line.cc
 
 CMakeFiles/Lslam.dir/src/Line.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lslam.dir/src/Line.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lutao/slam/Lslam/src/Line.cc > CMakeFiles/Lslam.dir/src/Line.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/slam/Lslam/src/Line.cc > CMakeFiles/Lslam.dir/src/Line.cc.i
 
 CMakeFiles/Lslam.dir/src/Line.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lslam.dir/src/Line.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lutao/slam/Lslam/src/Line.cc -o CMakeFiles/Lslam.dir/src/Line.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/slam/Lslam/src/Line.cc -o CMakeFiles/Lslam.dir/src/Line.cc.s
 
 CMakeFiles/Lslam.dir/src/Line.cc.o.requires:
 .PHONY : CMakeFiles/Lslam.dir/src/Line.cc.o.requires
@@ -97,17 +97,17 @@ CMakeFiles/Lslam.dir/src/Line.cc.o.provides.build: CMakeFiles/Lslam.dir/src/Line
 
 CMakeFiles/Lslam.dir/src/System.cc.o: CMakeFiles/Lslam.dir/flags.make
 CMakeFiles/Lslam.dir/src/System.cc.o: ../src/System.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lutao/slam/Lslam/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/slam/Lslam/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Lslam.dir/src/System.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Lslam.dir/src/System.cc.o -c /home/lutao/slam/Lslam/src/System.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Lslam.dir/src/System.cc.o -c /home/ubuntu/slam/Lslam/src/System.cc
 
 CMakeFiles/Lslam.dir/src/System.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lslam.dir/src/System.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lutao/slam/Lslam/src/System.cc > CMakeFiles/Lslam.dir/src/System.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/slam/Lslam/src/System.cc > CMakeFiles/Lslam.dir/src/System.cc.i
 
 CMakeFiles/Lslam.dir/src/System.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lslam.dir/src/System.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lutao/slam/Lslam/src/System.cc -o CMakeFiles/Lslam.dir/src/System.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/slam/Lslam/src/System.cc -o CMakeFiles/Lslam.dir/src/System.cc.s
 
 CMakeFiles/Lslam.dir/src/System.cc.o.requires:
 .PHONY : CMakeFiles/Lslam.dir/src/System.cc.o.requires
@@ -177,6 +177,6 @@ CMakeFiles/Lslam.dir/clean:
 .PHONY : CMakeFiles/Lslam.dir/clean
 
 CMakeFiles/Lslam.dir/depend:
-	cd /home/lutao/slam/Lslam/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lutao/slam/Lslam /home/lutao/slam/Lslam /home/lutao/slam/Lslam/build /home/lutao/slam/Lslam/build /home/lutao/slam/Lslam/build/CMakeFiles/Lslam.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/slam/Lslam/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/slam/Lslam /home/ubuntu/slam/Lslam /home/ubuntu/slam/Lslam/build /home/ubuntu/slam/Lslam/build /home/ubuntu/slam/Lslam/build/CMakeFiles/Lslam.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Lslam.dir/depend
 

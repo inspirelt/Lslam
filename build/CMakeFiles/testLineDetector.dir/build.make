@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lutao/slam/Lslam
+CMAKE_SOURCE_DIR = /home/ubuntu/slam/Lslam
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lutao/slam/Lslam/build
+CMAKE_BINARY_DIR = /home/ubuntu/slam/Lslam/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/testLineDetector.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/testLineDetector.dir/flags.make
 
 CMakeFiles/testLineDetector.dir/Examples/testLineDetector.cc.o: CMakeFiles/testLineDetector.dir/flags.make
 CMakeFiles/testLineDetector.dir/Examples/testLineDetector.cc.o: ../Examples/testLineDetector.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lutao/slam/Lslam/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/slam/Lslam/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/testLineDetector.dir/Examples/testLineDetector.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/testLineDetector.dir/Examples/testLineDetector.cc.o -c /home/lutao/slam/Lslam/Examples/testLineDetector.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/testLineDetector.dir/Examples/testLineDetector.cc.o -c /home/ubuntu/slam/Lslam/Examples/testLineDetector.cc
 
 CMakeFiles/testLineDetector.dir/Examples/testLineDetector.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testLineDetector.dir/Examples/testLineDetector.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lutao/slam/Lslam/Examples/testLineDetector.cc > CMakeFiles/testLineDetector.dir/Examples/testLineDetector.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/slam/Lslam/Examples/testLineDetector.cc > CMakeFiles/testLineDetector.dir/Examples/testLineDetector.cc.i
 
 CMakeFiles/testLineDetector.dir/Examples/testLineDetector.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testLineDetector.dir/Examples/testLineDetector.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lutao/slam/Lslam/Examples/testLineDetector.cc -o CMakeFiles/testLineDetector.dir/Examples/testLineDetector.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/slam/Lslam/Examples/testLineDetector.cc -o CMakeFiles/testLineDetector.dir/Examples/testLineDetector.cc.s
 
 CMakeFiles/testLineDetector.dir/Examples/testLineDetector.cc.o.requires:
 .PHONY : CMakeFiles/testLineDetector.dir/Examples/testLineDetector.cc.o.requires
@@ -114,6 +114,6 @@ CMakeFiles/testLineDetector.dir/clean:
 .PHONY : CMakeFiles/testLineDetector.dir/clean
 
 CMakeFiles/testLineDetector.dir/depend:
-	cd /home/lutao/slam/Lslam/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lutao/slam/Lslam /home/lutao/slam/Lslam /home/lutao/slam/Lslam/build /home/lutao/slam/Lslam/build /home/lutao/slam/Lslam/build/CMakeFiles/testLineDetector.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/slam/Lslam/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/slam/Lslam /home/ubuntu/slam/Lslam /home/ubuntu/slam/Lslam/build /home/ubuntu/slam/Lslam/build /home/ubuntu/slam/Lslam/build/CMakeFiles/testLineDetector.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/testLineDetector.dir/depend
 

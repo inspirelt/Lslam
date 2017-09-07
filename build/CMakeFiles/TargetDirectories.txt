@@ -1,2 +1,2 @@
-/home/lutao/slam/Lslam/build/CMakeFiles/Lslam.dir
-/home/lutao/slam/Lslam/build/CMakeFiles/testLineDetector.dir
+/home/ubuntu/slam/Lslam/build/CMakeFiles/Lslam.dir
+/home/ubuntu/slam/Lslam/build/CMakeFiles/testLineDetector.dir
